@@ -21,7 +21,7 @@ public class ChartTemplate extends Chart{
 		//ここから
 
 
-		//右端がx,左端がy,横幅の最大がwidth,横幅の最小がheightになるように
+		//右端がx,左端がy,横幅の最大がwidth,高さの最大がheightになるように
 		//Graphics gの引数を使って描画してください
 		
 		
