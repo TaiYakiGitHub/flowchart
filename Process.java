@@ -21,7 +21,7 @@ public class Process extends Chart{
 		g.drawRect(x, y, width, height);
 		
 		FontMetrics fm = g.getFontMetrics();
-		Rectangle rectText = fm.getStringBounds(text, g);
+		Rectangle rectText = fm.getStringBounds(text, g).getBounds();
 		
 		int xs = x-rectText.width/2;
 		int ys = y-rectText.height/2;

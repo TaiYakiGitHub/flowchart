@@ -21,7 +21,7 @@ public class Terminal extends Chart{
 		g.drawRoundRect(x, y, width, height, height, height);
 		
 		FontMetrics fm = g.getFontMetrics();
-		Rectangle rectText = fm.getStringBounds(text, g);
+		Rectangle rectText = fm.getStringBounds(text, g).getBounds();
 		
 		int xs = x-rectText.width/2;
 		int ys = y-rectText.height/2;
