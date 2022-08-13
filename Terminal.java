@@ -16,6 +16,8 @@ public class Terminal extends Chart{
 	@Override
 	public void drawChart(Graphics g) {
 		
+		g.setColor(Color.BLACK);
+		
 		g.drawRoundRect(x, y, width, height, height, height);
 		
 		FontMetrics fm = g.getFontMetrics();

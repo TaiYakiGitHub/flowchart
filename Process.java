@@ -16,6 +16,8 @@ public class Process extends Chart{
 	@Override
 	public void drawChart(Graphics g) {
 		
+		g.setColor(Color.BLACK);
+		
 		g.drawRect(x, y, width, height);
 		
 		FontMetrics fm = g.getFontMetrics();
